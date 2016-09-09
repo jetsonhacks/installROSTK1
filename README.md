@@ -3,7 +3,7 @@ Install Robot Operating System (ROS) on NVIDIA Jetson TK1
 
 This script will install Robot Operating System (ROS) on the NVIDIA Jetson TK1 development kit.
 
-Note: 8-8-16 - Separated out the shell file updateRepositories.sh
+Note: 9-8-16 - Separated out the shell file updateRepositories.sh
 so that repositories are updated explicitly. These may or may not be
 needed for your application. In particular, updating the restricted repository may cause issues with peripherals such as an Intel RealSense camera
 
