@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Install Robot Operating System (ROS) on NVIDIA Jetson TK1
 # Maintainer of ARM builds for ROS is http://answers.ros.org/users/1034/ahendrix/
 # Information from:
@@ -8,11 +8,6 @@
 # use the jetson_tk1 tag on ROS answers
 # http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:jetson_tk1/page:1/
 
-# Configure repositories
-sudo apt-add-repository universe
-sudo apt-add-repository multiverse
-sudo apt-add-repository restricted
-sudo apt-get update
 # Setup Locale
 sudo update-locale LANG=C LANGUAGE=C LC_ALL=C LC_MESSAGES=POSIX
 # Setup sources.lst
