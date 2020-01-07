@@ -1,4 +1,4 @@
-# installROS
+# installROSTK1
 Install Robot Operating System (ROS) on NVIDIA Jetson TK1
 
 This script will install Robot Operating System (ROS) on the NVIDIA Jetson TK1 development kit.
