@@ -20,3 +20,10 @@ http://wiki.ros.org/indigo/Installation/UbuntuARM.
 When asking questions or looking for help running ROS on NVIDIA Jetson TK1 use the jetson_tk1 tag on ROS answers:
  http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:jetson_tk1/page:1/
 
+## whats next?
+to install turtlebot, do 
+```
+sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions ros-indigo-turtlebot-simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs
+```
+
+reference: http://wiki.ros.org/turtlebot/Tutorials/indigo/Turtlebot%20Installation
